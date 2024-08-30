@@ -5,11 +5,12 @@
   margin: 0;
   padding: 0;
 }
+/*Header*/
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(151deg, #099fc3 58%, transparent 50%);
+  background: linear-gradient(151deg, #03a3b3 42%, transparent 40%);
 }
 
 .profile-img-name {
@@ -17,7 +18,7 @@ header {
   background-size: cover;
   background-position: center;
   width: 85%;
-  height: 630px;
+  height: 640px;
   margin-top: 6%;
   display: flex;
   align-items: end;
@@ -34,4 +35,152 @@ header {
   justify-content: center;
   font-family: "Roboto", sans-serif;
   font-size: 44px;
+  font-weight: 400;
+}
+
+.about-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 25px;
+  font-weight: 380;
+  line-height: 1.5;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.linkdin-link,
+.github-link {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+/*Section*/
+
+h2 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+
+  font-size: 40px;
+  font-weight: 500;
+}
+.project {
+  margin-bottom: 50px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-img {
+  height: 208px;
+  display: flex;
+  justify-content: center;
+}
+
+.project-image {
+  height: 100%;
+  width: 356px;
+}
+
+.project-livepreview,
+.project-github {
+  height: 20px;
+  width: 20px;
+}
+
+.project-github {
+  margin-right: 5px;
+}
+
+.project-name-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #fdfdfd;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.3);
+  margin-left: 16px;
+  margin-right: 16px;
+  height: 125px;
+  padding: 20px;
+}
+
+.project-name {
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.project-description {
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+/*Footer*/
+
+footer {
+  width: 100vw;
+  background-color: #03a3b3;
+  color: white;
+}
+
+.contact-phrase {
+  font-family: "Roboto", sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.adress-info,
+.contact-number,
+.contact-email {
+  font-family: "Playfair Display", serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.adress-info {
+  margin-bottom: 20px;
+}
+
+.contact-email {
+  margin-bottom: 15px;
+}
+
+.contact-linkdin-link,
+.contact-github-link {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-picture {
+  width: 100vw;
+  height: 400px;
+  display: block;
+  margin: 0;
 }
