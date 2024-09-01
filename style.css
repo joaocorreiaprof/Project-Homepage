@@ -184,3 +184,58 @@ footer {
   display: block;
   margin: 0;
 }
+
+/*Tablet view*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .profile-img-name {
+    width: 50vw;
+    height: 545px;
+  }
+
+  .about {
+    margin-top: 145px;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+  }
+
+  .header-icons {
+    display: none;
+  }
+
+  h2 {
+    justify-content: start;
+    margin-left: 1rem;
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  footer {
+    display: flex;
+  }
+
+  .footer-left {
+    width: 50%;
+  }
+
+  .footer-right {
+    width: 50%;
+  }
+
+  .contact-picture {
+    width: 350px;
+    height: 100%;
+  }
+}
