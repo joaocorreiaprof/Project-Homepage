@@ -239,3 +239,54 @@ footer {
     height: 100%;
   }
 }
+
+/*PC/Laptoop View*/
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    background: linear-gradient(173deg, #03a3b3 77%, transparent 40%);
+  }
+
+  .profile-img-name {
+    margin-top: 0;
+    margin-right: 50px;
+  }
+
+  .about-section {
+    background-color: white;
+  }
+
+  .about {
+    justify-content: start;
+    margin-left: 18px;
+  }
+
+  .header-icons {
+    justify-content: end;
+    gap: 2rem;
+    margin-right: 1rem;
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .contact-picture {
+    width: fit-content;
+  }
+
+  .second-h2 {
+    justify-content: start;
+    margin-left: 11px;
+  }
+}
